@@ -8,10 +8,10 @@
   <license>Apache-2.0</license>
 <!--add exec dependants here to bring them in from other packages during starup-->
 
-<exec_depend>demo_nodes_cpp<exec_depend>
-<exec_depend>demo_nodes_py<exec_depend>
+<exec_depend>demo_nodes_cpp</exec_depend>
+<exec_depend>demo_nodes_py</exec_depend>
 <exec_depend>ros2launch</exec_depend>
-<exec_depend>turtlebot3_ws</exec_depend>
+<exec_depend>cartographer</exec_depend>
 <exec_depend>turtlebot3_navigation2</exec_depend>
 <exec_depend>turtlebot3_gazebo</exec_depend>
 <exec_depend>ament_index_python</exec_depend>
