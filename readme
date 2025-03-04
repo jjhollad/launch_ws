@@ -1,0 +1,9 @@
+
+to download from github 
+sudo apt instal gh 
+gh auth login
+. . . 
+after dowloading from github:
+source ~/launch_ws/install/setup.bash
+colcon build
+then run ros2 launch pylaunchexample/my_script thingy.....
