@@ -2,7 +2,8 @@
 to download from github 
 sudo apt install gh 
 gh auth login
-. . . 
+git clone https://github.com/jjhollad/launch_ws.git
+c===3
 after dowloading from github:
 source ~/launch_ws/install/setup.bash
 colcon build
