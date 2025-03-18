@@ -71,6 +71,12 @@ def launch_setup(context, *args, **kwargs):
             'use_sim_time': use_sim_time,
             'params_file': os.path.join(nav2_file_dir, 'param', param_file_name)}.items(),
     )
+    demo_cmd = Node(
+        package='py_launch_example',
+        executable='demo_sweep',
+        emulate_tty=True,
+        output='screen',
+    )
 
 
     return [
@@ -80,6 +86,7 @@ def launch_setup(context, *args, **kwargs):
         spawn_turtlebot_cmd,
         cartographer_cmd,
         nav2_cmd,
+	demo_cmd,
     ]
 
 

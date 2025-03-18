@@ -12,6 +12,7 @@ setup.py
 ../../build/py_launch_example/py_launch_example.egg-info/zip-safe
 launch/my_script_launch.py
 py_launch_example/__init__.py
+py_launch_example/demo_sweep.py
 resource/py_launch_example
 test/test_copyright.py
 test/test_flake8.py

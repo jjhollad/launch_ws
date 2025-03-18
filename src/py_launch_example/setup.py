@@ -24,6 +24,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+		'demo_sweep = py_launch_example.demo_sweep:main',
         ],
     },
 )
