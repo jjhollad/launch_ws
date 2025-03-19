@@ -1,0 +1,23 @@
+#hopefully this makes it so I dont push my logs and
+# garbage to the gihub :)
+# Ignore build, install, and log directories (colcon-related)
+build/
+install/
+log/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore VS Code settings (if using VS Code)
+.vscode/
+
+# Ignore ROS 2-generated files
+*.db3
+.colcon/
+ros2_ws/.ros/
+
+# Ignore hidden system files
+.DS_Store
+Thumbs.db
