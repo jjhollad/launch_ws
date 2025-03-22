@@ -1,5 +1,10 @@
 
-#ros install cmds
+# ros install cmds for humble
+# needs 22.04.. 
+
+
+
+#ros install cmds for jazzy (not ready yet, no turtlebot 3)
 
 sudo apt install curl
 curl -fsSL https://tailscale.com/install.sh | sh
@@ -19,3 +24,7 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-a
 sudo apt update
 sudo apt upgrade
 sudo apt install ros-humble-desktop
+sudo apt install gh
+cd ~
+git clone https://github.com/jjhollad/launch_ws.git
+
