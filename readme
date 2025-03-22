@@ -7,7 +7,7 @@ after dowloading from github:
 colcon build
 # Build needed before sourcing to create the install folder. 
 source ~/launch_ws/install/setup.bash
-
+echo "source ~/launch_ws/install/setup.bash" >> ~/.bashrc
 then run: ros2 launch py_launch_example my_script_launch.py
 kill command: "pkill -9 -f "ros2|gazebo|gz|nav2|amcl|bt_navigator|nav_to_pose|rviz2|python3|assisted_teleop|cmd_vel_relay|robot_state_publisher|joint_state_publisher|move_to_free|mqtt|autodock|cliff_detection|moveit|move_group|basic_navigator""
 To get points run: ros2 topic echo /clicked_point
