@@ -3,7 +3,13 @@
 # needs 22.04.. 
 https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+sudo apt install ros-humble-gazebo-*
 sudo apt install ros-humble-turtlebot3*
+export TURTLEBOT3_MODEL=waffle
+sudo apt install ros-humble-cartographer ros-humble-cartographer-ros ros-humble-navigation2 ros-humble-nav2-bringup
+[run the github readme]
+then 
+ros2 launch py_launch_example my_launch_script.py .... Current error is no gazebo loading
 
 
 
